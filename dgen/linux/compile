@@ -1,1 +1,4 @@
 #here comes the compiling script for linux
+cd ../src/
+g++ -o ../bin/dgen main.cpp
+notify-send "G++" "Valmis"
